@@ -254,8 +254,48 @@ h3 {
     justify-content: center;
 }
 
+/* contact page css */
+.contact-wrapper {
+    max-width: 700px;
+    margin: 100px auto;
+    padding: 0 40px;
+}
 
+.contact-form {
+    background: #eee;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
 
+.contact-wrapper h1 {
+    margin-bottom: 30px;
+}
 
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    font-size: 20px;
+    padding: 20px 10px;
+    border: 3px solid orange;
+    border-radius: 5px;
+    margin-bottom: 35px;
+}
 
+.contact-form textarea {
+    width: 100%;
+}
 
+.contact-form button {
+    width: 140px;
+    background: orange;
+    cursor: pointer;
+}
+
+.input-wrapper input[type="text"] {
+    width: 45%;
+    margin-right: 2.1%;
+}
+.input-wrapper input[type="email"] {
+    width: 50%;
+    margin-left: 2.1%;
+}
