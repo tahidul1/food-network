@@ -230,6 +230,37 @@ h3 {
     margin-bottom: 15px;
 }
 
+/* newsletter area css */
+.newsletter {
+    padding: 80px 0;
+    background: linear-gradient(
+88.33deg
+, #FBA24F -7.64%, #FF1E1E 145.94%);
+}
+
+
+.newsletter-form {
+    max-width: 700px;
+    text-align: center;
+    margin: 30px auto 0;
+}
+
+.newsletter-form input,
+.newsletter-form button {
+    font-size: 16px;
+    padding: 15px 30px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin: 0 15px;
+}
+
+.newsletter-form button {
+    font-weight: 700;
+    background-color: orange;
+    cursor: pointer;
+}
+
+
 /* footer area css */
 .footer-area {
     background: #0B0D17;
