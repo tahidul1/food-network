@@ -9,5 +9,52 @@ a {
     text-decoration: none;
 }
 
+/* header area css */
+.header {
+    background: #FF1E1E;
+    padding: 20px 15px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.site-logo {
+    width: 25%;
+}
+
+.site-logo a {
+    display: block;
+}
+
+.site-logo a img {
+    display: block;
+}
+
+.menu-item {
+    width: 75%;
+}
+
+.menu-item ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-item ul li {
+    display: inline;
+    padding-left: 15px;
+}
+
+.menu-item ul li a {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
 
 
