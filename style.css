@@ -12,10 +12,14 @@ a {
 
 p {
     margin: 0;
+    color: #828282;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
-h1 {
+h1, h3 {
     margin: 0;
+    color: #575757;
 }
 
 .color-text {
@@ -100,16 +104,52 @@ h1 {
 .banner-left h1 {
     font-size: 60px;
     font-weight: 700;
-    color: #575757;
 }
 
 .banner-left p {
-    color: #828282;
-    font-size: 18px;
-    line-height: 1.5;
     margin-top: 55px;
     margin-bottom: 45px;
 }
+
+.banner-right img {
+    width: 100%;
+}
+
+/* about area css */
+.about {
+    padding: 60px 80px 0;
+}
+
+.about-bg {
+    background-image: url(./images/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-left {
+    text-align: center;
+}
+
+.about-left img {
+    width: 338px;
+    height: 536px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.about-right h3 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.about-right p {
+    max-width: 550px;
+    margin-bottom: 45px;
+}
+
+
 
 /* order page css */
 .content {
