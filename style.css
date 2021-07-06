@@ -1,3 +1,4 @@
+/* global css */
 body {
     margin: 0;
     padding: 0;
@@ -7,6 +8,31 @@ body {
 
 a {
     text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.color-text {
+    color: #FBA24F;
+}
+
+/* btn link css */
+.btn{
+    display: inline-block;
+    width: 190px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    padding: 24px 32px;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+    border-radius: 100px;
 }
 
 /* header area css */
@@ -55,6 +81,46 @@ a {
     font-size: 18px;
     font-weight: 700;
 }
+
+/* banner area css */
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.two-column {
+    width: 50%;
+}
+
+.banner {
+    margin: 80px 0;
+    padding: 0 80px;
+}
+
+.banner-left h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #575757;
+}
+
+.banner-left p {
+    color: #828282;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 55px;
+    margin-bottom: 45px;
+}
+
+/* order page css */
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 
 
 
